@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "60544a0fa5eeba7867eee415"
+  },
+  "name": "Apple",
+  "price": 30
+},{
+  "_id": {
+    "$oid": "60544a64a5eeba7867eee416"
+  },
+  "name": "Banana",
+  "price": 90
+},{
+  "_id": {
+    "$oid": "607725a66f294f9495c15e39"
+  },
+  "name": "shampoo",
+  "price": 123,
+  "__v": 0
+}]

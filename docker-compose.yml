@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  nodeapp:
+    image: smustafa086/nodeapp:latest
+    ports:
+      - "8080:3000"
+    depends_on:
+      - mydatabase
+    links:
+    - mydatabase:mydatabase
+
+  mydatabase:
+    image: smustafa086/nodeapp:mongodb-database
+    ports:
+      - "2017:27017"
+      
+# docker run -p 80:3000 --link mydatabase:mydatabase --name nodeapp smustafa086/nodeapp:latest
+
+# docker run -p 2017:27017 -d --name mydatabase smustafa086/nodeapp:mongodb-database
