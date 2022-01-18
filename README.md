@@ -11,12 +11,12 @@ git clone https://github.com/SyedMustafaImam/Dockerize-Nodejs-app.git
 
 - Step 2:
 ```console
-cd Dockerize-Nodejs-app.git 
+cd Dockerize-Nodejs-app
 ```
 
 - Step 3:
 ```console
-docker-compose up 
+docker-compose up &
 ```
 
 - Step 4:
